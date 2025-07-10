@@ -1,0 +1,29 @@
+ef_exp.lo: ef_exp.c ../../support/support.h ../../config.h \
+ ../../config/riscv64/chips/generic/chipsupport.h \
+ /opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include/stdint.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/stdint.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/machine/_default_types.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/features.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/_newlib_version.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/_intsup.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/_stdint.h
+
+../../support/support.h:
+
+../../config.h:
+
+../../config/riscv64/chips/generic/chipsupport.h:
+
+/opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include/stdint.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/stdint.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/machine/_default_types.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/features.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/_newlib_version.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/_intsup.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/_stdint.h:

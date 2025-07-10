@@ -1,0 +1,5 @@
+aes.lo: aes.c aes.h aestab.h
+
+aes.h:
+
+aestab.h:

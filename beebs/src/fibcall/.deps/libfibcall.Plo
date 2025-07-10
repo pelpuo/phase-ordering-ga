@@ -1,0 +1,8 @@
+libfibcall.lo: libfibcall.c ../../support/support.h ../../config.h \
+ ../../config/riscv64/chips/generic/chipsupport.h
+
+../../support/support.h:
+
+../../config.h:
+
+../../config/riscv64/chips/generic/chipsupport.h:

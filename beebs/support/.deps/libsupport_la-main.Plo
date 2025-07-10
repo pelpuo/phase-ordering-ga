@@ -1,0 +1,8 @@
+libsupport_la-main.lo: main.c support.h ../config.h \
+ ../config/riscv64/chips/generic/chipsupport.h
+
+support.h:
+
+../config.h:
+
+../config/riscv64/chips/generic/chipsupport.h:

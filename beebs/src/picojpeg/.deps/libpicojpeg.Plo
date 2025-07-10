@@ -1,0 +1,3 @@
+libpicojpeg.lo: libpicojpeg.c picojpeg.h
+
+picojpeg.h:

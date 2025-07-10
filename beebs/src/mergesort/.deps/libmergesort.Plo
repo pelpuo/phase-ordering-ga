@@ -1,0 +1,140 @@
+libmergesort.lo: libmergesort.c ../../support/support.h ../../config.h \
+ ../../config/riscv64/chips/generic/chipsupport.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/stdio.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/_ansi.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/newlib.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/_newlib_version.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/config.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/machine/ieeefp.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/features.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/cdefs.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/machine/_default_types.h \
+ /opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include/stddef.h \
+ /opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include/stdarg.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/reent.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/_ansi.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/_types.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/machine/_types.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/lock.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/types.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/_stdint.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/machine/endian.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/machine/_endian.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/select.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/_sigset.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/_timeval.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/timespec.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/_timespec.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/_pthreadtypes.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/sched.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/machine/types.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/stdio.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/stdlib.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/machine/stdlib.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/alloca.h \
+ /opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include/stdint.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/stdint.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/_intsup.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/string.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/_locale.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/strings.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/string.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/math.h \
+ /opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include-fixed/limits.h \
+ /opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include-fixed/syslimits.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/limits.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/syslimits.h
+
+../../support/support.h:
+
+../../config.h:
+
+../../config/riscv64/chips/generic/chipsupport.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/stdio.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/_ansi.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/newlib.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/_newlib_version.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/config.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/machine/ieeefp.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/features.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/cdefs.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/machine/_default_types.h:
+
+/opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include/stddef.h:
+
+/opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include/stdarg.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/reent.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/_ansi.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/_types.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/machine/_types.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/lock.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/types.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/_stdint.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/machine/endian.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/machine/_endian.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/select.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/_sigset.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/_timeval.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/timespec.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/_timespec.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/_pthreadtypes.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/sched.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/machine/types.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/stdio.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/stdlib.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/machine/stdlib.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/alloca.h:
+
+/opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include/stdint.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/stdint.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/_intsup.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/string.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/_locale.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/strings.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/string.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/math.h:
+
+/opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include-fixed/limits.h:
+
+/opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include-fixed/syslimits.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/limits.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/syslimits.h:

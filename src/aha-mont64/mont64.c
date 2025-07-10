@@ -365,26 +365,3 @@ verify_benchmark (int r)
 
 //     return 0;
 // }
-
-int main(void)
-{
-    int errors;
-
-    // Initialize benchmark parameters
-    initialise_benchmark();
-
-    // Warm caches before starting the benchmark to get consistent results
-    warm_caches(1);
-
-    // Run the benchmark
-    errors = benchmark();
-
-    // Verify and print the result
-    if (verify_benchmark(errors)) {
-        printf("Benchmark completed successfully with no errors.\n");
-    } else {
-        printf("Benchmark completed with errors.\n");
-    }
-
-    return 0;
-}

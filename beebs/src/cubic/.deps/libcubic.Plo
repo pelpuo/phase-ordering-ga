@@ -1,0 +1,52 @@
+libcubic.lo: libcubic.c /opt/riscv_ima/riscv64-unknown-elf/include/math.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/reent.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/_ansi.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/newlib.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/_newlib_version.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/config.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/machine/ieeefp.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/features.h \
+ /opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include/stddef.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/_types.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/machine/_types.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/machine/_default_types.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/lock.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/sys/cdefs.h \
+ /opt/riscv_ima/riscv64-unknown-elf/include/_ansi.h snipmath.h pi.h \
+ sniptype.h
+
+/opt/riscv_ima/riscv64-unknown-elf/include/math.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/reent.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/_ansi.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/newlib.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/_newlib_version.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/config.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/machine/ieeefp.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/features.h:
+
+/opt/riscv_ima/lib/gcc/riscv64-unknown-elf/9.2.0/include/stddef.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/_types.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/machine/_types.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/machine/_default_types.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/lock.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/sys/cdefs.h:
+
+/opt/riscv_ima/riscv64-unknown-elf/include/_ansi.h:
+
+snipmath.h:
+
+pi.h:
+
+sniptype.h:

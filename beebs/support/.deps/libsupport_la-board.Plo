@@ -1,0 +1,11 @@
+libsupport_la-board.lo: board.c \
+ ../config/riscv64/boards/none/boardsupport.c support.h ../config.h \
+ ../config/riscv64/chips/generic/chipsupport.h
+
+../config/riscv64/boards/none/boardsupport.c:
+
+support.h:
+
+../config.h:
+
+../config/riscv64/chips/generic/chipsupport.h:
