@@ -1,21 +1,21 @@
 Generation,Best Candidate,Global Best Candidate,Worst Candidate,Best Time,Worst Time,Global Best Time,Average Time
-0,"['-fversion-loops-for-strides', '-fgcse-after-reload', '-fipa-cp-clone', '-fsplit-loops', '-floop-interchange']","['-fversion-loops-for-strides', '-fgcse-after-reload', '-fipa-cp-clone', '-fsplit-loops', '-floop-interchange']","['-fgcse-after-reload', '-fsplit-paths', '-fipa-cp-clone', '-fpeel-loops', '-fpredictive-commoning']",-501650.04,670342.0,-501650.04,-27542.109333333334
-1,"['-fgcse-after-reload', '-fversion-loops-for-strides']","['-fgcse-after-reload', '-fversion-loops-for-strides']","['-fpeel-loops', '-fversion-loops-for-strides', '-fipa-cp-clone', '-floop-unroll-and-jam']",-641438.24,557478.6,-641438.24,-5951.541333333331
-2,"['-fpeel-loops', '-fgcse-after-reload']","['-fgcse-after-reload', '-fversion-loops-for-strides']","['-fversion-loops-for-strides', '-ftree-partial-pre']",-640691.08,714176.12,-641438.24,59133.193333333336
-3,['-floop-unroll-and-jam'],['-floop-unroll-and-jam'],"['-fipa-cp-clone', '-ftree-partial-pre', '-fversion-loops-for-strides', '-fpeel-loops']",-765900.6,456077.72,-765900.6,-27558.88266666667
-4,"['-funswitch-loops', '-fipa-cp-clone']",['-floop-unroll-and-jam'],['-fpredictive-commoning'],-441634.76,438932.44,-765900.6,83593.62666666666
-5,['-fgcse-after-reload'],['-floop-unroll-and-jam'],"['-fvect-cost-model=dynamic', '-fgcse-after-reload', '-floop-interchange', '-fversion-loops-for-strides']",-454176.88,756666.2,-765900.6,45877.152
-6,"['-fsplit-loops', '-floop-interchange', '-fpeel-loops', '-fipa-cp-clone']",['-floop-unroll-and-jam'],['-fpeel-loops'],-479063.36,532932.08,-765900.6,15560.864
-7,['-ftree-partial-pre'],['-floop-unroll-and-jam'],['-fpeel-loops'],-465647.28,598038.28,-765900.6,32720.99066666667
-8,"['-funswitch-loops', '-floop-interchange']",['-floop-unroll-and-jam'],"['-fpredictive-commoning', '-fgcse-after-reload']",-428038.36,530472.0,-765900.6,-21503.728
-9,"['-ftree-loop-distribution', '-fvect-cost-model=dynamic', '-fpeel-loops']",['-floop-unroll-and-jam'],"['-fpredictive-commoning', '-fversion-loops-for-strides']",-760789.08,489932.96,-765900.6,-51676.69466666666
-10,['-floop-unroll-and-jam'],['-floop-unroll-and-jam'],['-fvect-cost-model=dynamic'],-584606.76,534058.32,-765900.6,-527.777333333335
-11,['-ftree-loop-distribution'],['-ftree-loop-distribution'],['-fvect-cost-model=dynamic'],-963239.88,639579.56,-963239.88,27785.457333333336
-12,['-floop-interchange'],['-ftree-loop-distribution'],['-fpeel-loops'],-468317.64,589826.16,-963239.88,-77359.03066666666
-13,"['-funswitch-loops', '-fversion-loops-for-strides', '-fpredictive-commoning']",['-ftree-loop-distribution'],"['-fversion-loops-for-strides', '-floop-interchange']",-637042.24,475005.16,-963239.88,-35948.566666666666
-14,['-floop-interchange'],['-ftree-loop-distribution'],['-floop-unroll-and-jam'],-288082.04,505258.64,-963239.88,17280.673333333336
-15,"['-ftree-loop-distribution', '-funswitch-loops']",['-ftree-loop-distribution'],['-fpredictive-commoning'],-700036.92,475714.56,-963239.88,3265.7066666666633
-16,"['-ftree-loop-distribution', '-fpredictive-commoning']",['-ftree-loop-distribution'],"['-ftree-loop-distribution', '-fpeel-loops']",-488821.8,630060.96,-963239.88,-37376.869333333336
-17,"['-ftree-loop-distribution', '-floop-interchange']",['-ftree-loop-distribution'],['-fpredictive-commoning'],-358219.92,434864.64,-963239.88,11947.06266666667
-18,['-ftree-loop-distribution'],['-ftree-loop-distribution'],['-ftree-partial-pre'],-543645.72,568571.36,-963239.88,-31439.018666666667
-19,['-floop-interchange'],['-ftree-loop-distribution'],['-floop-unroll-and-jam'],-521505.76,875447.2,-963239.88,55486.96533333333
+0,"['-ftree-partial-pre', '-ftree-loop-distribution', '-floop-interchange', '-fpeel-loops', '-fpredictive-commoning']","['-ftree-partial-pre', '-ftree-loop-distribution', '-floop-interchange', '-fpeel-loops', '-fpredictive-commoning']","['-floop-unroll-and-jam', '-fpredictive-commoning', '-ftree-loop-distribution', '-fgcse-after-reload', '-fversion-loops-for-strides']",-138940.36,135209.2,-138940.36,-3841.767999999999
+1,"['-funswitch-loops', '-fvect-cost-model=dynamic', '-fipa-cp-clone', '-floop-interchange']","['-funswitch-loops', '-fvect-cost-model=dynamic', '-fipa-cp-clone', '-floop-interchange']","['-fpredictive-commoning', '-ftree-loop-distribution', '-fpeel-loops', '-fipa-cp-clone']",-182347.08,86016.32,-182347.08,-12780.801333333333
+2,['-floop-interchange'],"['-funswitch-loops', '-fvect-cost-model=dynamic', '-fipa-cp-clone', '-floop-interchange']","['-fipa-cp-clone', '-fpeel-loops', '-floop-interchange', '-fsplit-loops']",-104273.76,84040.12,-182347.08,-11115.5
+3,"['-fsplit-paths', '-fpeel-loops', '-floop-unroll-and-jam', '-fsplit-loops']","['-funswitch-loops', '-fvect-cost-model=dynamic', '-fipa-cp-clone', '-floop-interchange']",['-fgcse-after-reload'],-130487.88,145139.88,-182347.08,23855.466666666667
+4,"['-fipa-cp-clone', '-fpeel-loops']","['-funswitch-loops', '-fvect-cost-model=dynamic', '-fipa-cp-clone', '-floop-interchange']","['-floop-unroll-and-jam', '-fipa-cp-clone']",-114374.52,83335.52,-182347.08,6215.930666666667
+5,['-funswitch-loops'],"['-funswitch-loops', '-fvect-cost-model=dynamic', '-fipa-cp-clone', '-floop-interchange']","['-fsplit-loops', '-ftree-loop-distribution', '-fpredictive-commoning']",-78306.48,109677.68,-182347.08,14246.881333333333
+6,"['-ftree-partial-pre', '-fvect-cost-model=dynamic', '-fversion-loops-for-strides', '-floop-unroll-and-jam']","['-ftree-partial-pre', '-fvect-cost-model=dynamic', '-fversion-loops-for-strides', '-floop-unroll-and-jam']","['-fversion-loops-for-strides', '-ftree-partial-pre', '-funswitch-loops', '-fgcse-after-reload']",-200806.48,100333.32,-200806.48,-6398.590666666667
+7,"['-fipa-cp-clone', '-fpredictive-commoning']","['-fipa-cp-clone', '-fpredictive-commoning']","['-funswitch-loops', '-fpeel-loops', '-fpredictive-commoning']",-225994.0,96081.56,-225994.0,956.3399999999993
+8,"['-fsplit-paths', '-floop-interchange']","['-fipa-cp-clone', '-fpredictive-commoning']","['-floop-interchange', '-fipa-cp-clone', '-ftree-partial-pre']",-155097.8,139324.12,-225994.0,-2714.975999999999
+9,"['-fpeel-loops', '-fversion-loops-for-strides']","['-fipa-cp-clone', '-fpredictive-commoning']","['-fpredictive-commoning', '-fsplit-loops']",-115853.48,101006.08,-225994.0,-8903.936
+10,['-fgcse-after-reload'],"['-fipa-cp-clone', '-fpredictive-commoning']",['-fvect-cost-model=dynamic'],-155366.12,108405.12,-225994.0,-2218.0106666666666
+11,"['-ftree-partial-pre', '-floop-unroll-and-jam']","['-fipa-cp-clone', '-fpredictive-commoning']",['-fsplit-loops'],-85188.84,104215.44,-225994.0,14031.548
+12,['-fipa-cp-clone'],"['-fipa-cp-clone', '-fpredictive-commoning']",['-ftree-loop-distribution'],-114704.96,115198.96,-225994.0,15575.859999999999
+13,"['-fsplit-loops', '-ftree-partial-pre']","['-fipa-cp-clone', '-fpredictive-commoning']",['-fvect-cost-model=dynamic'],-110105.68,137052.64,-225994.0,-7591.448
+14,"['-funswitch-loops', '-floop-interchange']","['-fipa-cp-clone', '-fpredictive-commoning']","['-fgcse-after-reload', '-fsplit-loops']",-156435.68,187781.6,-225994.0,9702.704
+15,['-fipa-cp-clone'],"['-fipa-cp-clone', '-fpredictive-commoning']",['-ftree-loop-distribution'],-154624.12,85268.6,-225994.0,-5372.0746666666655
+16,['-fversion-loops-for-strides'],"['-fipa-cp-clone', '-fpredictive-commoning']",['-fsplit-loops'],-172565.16,139262.68,-225994.0,2110.496
+17,['-funswitch-loops'],"['-fipa-cp-clone', '-fpredictive-commoning']",['-floop-unroll-and-jam'],-131012.84,117461.04,-225994.0,-10527.062666666667
+18,['-fversion-loops-for-strides'],"['-fipa-cp-clone', '-fpredictive-commoning']",['-ftree-loop-distribution'],-100032.52,105476.64,-225994.0,8558.713333333333
+19,['-fgcse-after-reload'],"['-fipa-cp-clone', '-fpredictive-commoning']",['-fsplit-paths'],-123706.16,124438.64,-225994.0,3430.3426666666664
